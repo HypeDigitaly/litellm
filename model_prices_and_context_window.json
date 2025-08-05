@@ -17460,12 +17460,12 @@
         "supports_tool_choice": true,
         "supports_prompt_caching": true
     },
-       "openrouter/z-ai/glm-4-32b": {
+       "openrouter/z-ai/glm-4.5-air": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": 2e-07,
-        "output_cost_per_token": 2e-07,
+        "input_cost_per_token": 4e-07,
+        "output_cost_per_token": 2.2e-06,
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
